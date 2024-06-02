@@ -16,6 +16,7 @@ function custom_discount_admin_page() {
     ?>
     <div class="wrap">
         <h1><?php esc_html_e('Role Based Discounts', 'role-based-woocommerce-pricing'); ?></h1>
+        <?php settings_errors(); ?>
         <form method="post" action="options.php">
             <?php
             settings_fields('custom_discount_settings');
@@ -58,6 +59,13 @@ function sanitize_custom_discount_settings($input) {
         // Komma durch Punkt ersetzen und sicherstellen, dass es eine Zahl ist
         $sanitized_input[$key] = floatval(str_replace(',', '.', $value));
     }
+    // Erfolgsmeldung hinzufügen
+    add_settings_error(
+        'custom_discount_settings',
+        'settings_updated',
+        __('Discount settings saved.', 'role-based-woocommerce-pricing'),
+        'updated'
+    );
     return $sanitized_input;
 }
 
