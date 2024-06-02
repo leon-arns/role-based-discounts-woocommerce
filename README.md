@@ -17,7 +17,7 @@
 
 1. **Download**: Download the plugin from GitHub or clone the repository.
    ```bash
-   git clone https://github.com/leon-arns/internova-role-based-woocommerce-pricing.git
+   git clone https://github.com/leon-arns/role-based-woocommerce-pricing.git
 Upload: Upload the plugin folder to the /wp-content/plugins/ directory on your server.
 
 Activate: Go to your WordPress admin interface and activate the plugin in the Plugins menu.
@@ -78,7 +78,7 @@ Download: Download the plugin from GitHub or clone the repository.
 
 bash
 Copy code
-git clone https://github.com/leon-arns/internova-role-based-woocommerce-pricing.git
+git clone https://github.com/leon-arns/role-based-woocommerce-pricing.git
 Upload: Upload the plugin folder to the /wp-content/plugins/ directory on your server.
 
 Activate: Go to your WordPress admin interface and activate the plugin from the Plugins menu.
