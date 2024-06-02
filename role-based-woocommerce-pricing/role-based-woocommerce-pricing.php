@@ -3,7 +3,8 @@
 Plugin Name: Role Based WooCommerce Pricing
 Description: Custom discounts for different user roles in WooCommerce.
 Version: 1.0
-Author: internova.digital
+Author: Leon Arns | internova
+Author URI: internova.digital
 Text Domain: role-based-woocommerce-pricing
 Domain Path: /languages
 */
